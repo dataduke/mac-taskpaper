@@ -6,10 +6,10 @@ Taskpaper Themes and Settings.
 
 ## Some Background Thoughts
 
-A long time ago, my task lists were held on simple .txt files or for certain topics on .xls sheets,
-which added some charts for progress and accomplishment analysis. I developed and followed my very own system and quite complex system, which included over 5 basic categories, narrowed down to up to 20 subcategories. It worked quite well and also included the Eisenhower principle, but then I met tux and later on mac os x and got tracked into editors and applications.
+A long time ago, my task lists were held on simple .txt files or on .xls sheets for certain topics,
+which also held some charts for progress and accomplishment analysis. I developed and followed my own and quite complex system, which included over 5 basic categories, narrowed down to up to 20 subcategories. It worked quite well and also included the Eisenhower principle, but then I met tux and later on mac os x and got tracked into editors and applications.
 
-As a student obsessed with IT my GTD application journey started with a workshop at an IT conference at the summer of 2005. Although, software is not needed for managing tasks I got quite addicted to the search for the best tool and tested for a while nearly every task app since I had the first released smartphone with a touchscreen and later on at pocket pc.
+As a student obsessed with IT my GTD application journey started with a workshop at an IT conference at the summer of 2005. Although, software is not needed for managing tasks I got quite addicted to the search for the best tool and tested for a while nearly every task app since I had the first released smartphone with a touchscreen and later on a pocket pc.
 
 I dived even deeper when I got the first iphone and the app store was launched. A bunch of apps were getting a lot of attention and I still have the full version for all of them. For a year I used things on mac, iphone (and switched even back to it when the ipad version was released).
 
