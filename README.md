@@ -2,7 +2,9 @@
 
 Taskpaper Themes and Settings. 
 
-## Some Thoughts
+## Themes
+
+## Some Background Thoughts
 
 A long time ago, my task lists were held on simple .txt files or for certain topics on .xls sheets,
 which added some charts for progress and accomplishment analysis. I developed and followed my very own system and quite complex system, which included over 5 basic categories, narrowed down to up to 20 subcategories. It worked quite well and also included the Eisenhower principle, but then I met tux and later on mac os x and got tracked into editors and applications.
@@ -20,42 +22,46 @@ As (1) the next platform (android) emerged, (2) I was dealing with enterprise ti
 This is basically how I got back to using plaintext and taskpaper for improved aesthetics, the review-process and retrospectives.
 (Even though I watched the live presentation of omnifocus 2 the day it was online I will not switch away from plaintext in the future.)
 
-## Themes
+## References
 
+### Productivity Blogs
 
+* Some hints to get you started *
 
+- [List of Productivity Blogs](http://zenhabits.net/the-top-50-productivity-blogs-most-of-which-you-havent-heard-about/)
+- [43 Folders](http://www.43folders.com/) by Merlin Mann
+- [GTD Times](http://www.gtdtimes.com/) by David Allen
+- [Books](http://patrickrhone.com/books/)
 
-# References
+### Simple Tools
 
-## Websites
+* I would recommend any of the following *
 
-- GTD
-- 43 Folders
-- Digital Tigers
+- [TaskPaper](http://www.hogbaysoftware.com/products/taskpaper)
+- [FoldingText](http://www.foldingtext.com/)
+- [orgMode](http://orgmode.org/)
+- [VimOrganizer](http://www.vim.org/scripts/script.php?script_id=3342) [github-repo](https://github.com/hsitz/VimOrganizer)
+- [todo.txt](http://todotxt.com/) by Gina Trapani [github-repos](https://github.com/ginatrapani)
+- [taskwarrior](http://taskwarrior.org)
 
-## Simple Tools
+### Best Mac Applications
 
-- TaskPaper
-- FoldingText
-- orgMode
-- todo.txt
-- taskwarrior
-
-## Best Mac Applications
-
-- [Omnifocus](http://www.omnigroup.com/products/omnifocus/): Only shortcoming was the complex layout of filters in the mac app.
+* If you still want to be should check out these apps *
 
 - [Nozbe](http://www.nozbe.com/): Started out as a task management website for individuals and teams with deep integration to a lot of services (most popular today, evernote, google calender, dropbox) promoted by a very talented founder, blogger and screencaster and magazine creator. It has constantly grown and added an iphone app, added a mac app, added a windows app, added android support. Today it offers the most complete solution with the highest developmental progress over time.
 
-- [Things]: Very bad customer care in the forums as I took them over 3 years to deliver a announced push and cloud sync service. The problem was, that they over-engineered a solution, which is very typical for Germans. Thus, they now have a perfect cloud sync system/framework, which Apple itself would probably use/build.
+- [Omnifocus](http://www.omnigroup.com/products/omnifocus/): Only shortcoming was the complex layout of filters in the mac app, but this will be fixed with the near arrival of version 2.
 
-## Honorable Mentions
+- [Things](http://culturedcode.com/things/): As they over-engineered their website design, blog posts and mainly the long announced and awaited push and cloud sync service the customer service in the forums went very low, diplomatically spoken. It was a very rough 3 year long developement phase but they finally delivered a perfect cloud sync system/framework, which Apple itself would probably have use/build (with a lot more resource power).
 
-Tools with very good approaches but failed on the market.
+- [Organize](http://taskfabric.com/): Focuses on task visualization and rich interfaces but lacks really fitting application design.
 
-- The Hitlist: for its flexible task presentation and time tracking. Failure: The indy developer couldn't deliver a iphone app at the right time, when a lot of nerds were asking, because of the bad experiences with omnifocus and things.
-- [Helium Task Management](http://www.heliumnow.com/) for its very good app design and email integration (similar to the new mail.app for iphone). Shortcomings: Maybe lack of investors. 
+### Honorable Mentions
 
-## 
+* Tools with very good approaches but failed on the market *
 
-- Easy Task Manager http://www.orionbelt.com/ 
+- [The Hitlist](http://www.potionfactory.com/thehitlist/): Known for its flexible task presentation, time tracking and its once superior mac app design in comparison to things and omnifocus. Shortcomings: Sadly the indy developer couldn't deliver an iphone app at the right time to market - when a lot of nerds were asking, because of the mixed experiences with omnifocus and things.
+
+- [Helium Task Management](http://www.heliumnow.com/) Known for its very good app design and email integration (similar to the new mail.app for iphone). Shortcomings: Maybe lack of investors. 
+
+- [Easy Task Manager](http://www.orionbelt.com/): Known as the first system to offer support for all major plattforms. Shortcomings: Very basic and old school application design and limited features.
