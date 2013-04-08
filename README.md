@@ -15,7 +15,7 @@ For a year I used things on mac, iphone (and switched even back to it when the i
 
 However no rich task application could have the same ease of use as plaintext files and mouse-free manipulation via cli-commands or a good editor like vim or emacs. So I started using org mode and taskwarrior. 
 
-As (1) the next platform (android) emerged, (2) I was dealing with enterprise ticket systems and enterprise task management applications and (3) minimalism started its triumphal procession in the blogging world it was clear that simple txt was the solution for all operating systems I use.
+As (1) the next mobile platforms (android, webos, windows phone) emerged, (2) I was dealing with enterprise ticket systems and enterprise task management applications and (3) minimalism started its triumphal procession in the blogging world it was clear that simple txt was the solution for all operating systems I use.
 
 This is basically how I got back to using plaintext and taskpaper for improved aesthetics, the review-process and retrospectives. (Even though I watched the live presentation of omnifocus 2 the day it was online I will not switch away from plaintext in the future.)
 
