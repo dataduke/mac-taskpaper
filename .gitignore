@@ -1,0 +1,5 @@
+# editor
+*.sublime-workspace
+
+# mac osx
+.DS_Store

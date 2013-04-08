@@ -1,0 +1,204 @@
+<theme>
+	<!-- additional colors
+	<color id="macbackgroundblue" red="0.86" green="0.88" blue="0.897" alpha="1.0" />
+	<color id="macfontblue" red="0.22" green="0.24" blue="0.28" alpha="1.0" />
+	<color id="thingsgrey" red="0.73" green="0.75" blue="0.77" alpha="1.0" />
+	<color id="darkred" red="0.53" green="0.20" blue="0.1" alpha="1.0" />
+	<color id="oldhandle" red="0.44" green="0.49" blue="0.55" alpha="1.0" />
+	<color id="oldgroupHeader" red="0.13" green="0.13" blue="0.13" alpha="1.0" />
+	-->
+
+	<!-- WINDOW style -->
+	<color id="foreground" red="0" green="0" blue="0" alpha="1.0" />
+	<color id="background" red="0.86" green="0.88" blue="0.897" alpha="1.0" />
+	<window foregroundColorID="foreground" backgroundColorID="background" shouldUseHUDScrollers="no" />
+
+	<!-- TEXT VIEW style -->
+	<color id="tag" red="0.53" green="0.20" blue="0.1" alpha="1.0" />
+	<color id="handle" red="0.22" green="0.24" blue="0.28" alpha="1.0" />
+	<color id="insertionPoint" red="0.5" green="0.635" blue="0.8" alpha="1.0" />
+	<color id="selection" red="0.7" green="0.835" blue="1" alpha="1.0" />
+	<font id="base" name="Helvetica" size="0" />
+	<characterStyle id="base" fontID="base" foregroundColorID="foreground" />
+	<paragraphStyle id="base" paragraphSpacing="4.75" paragraphSpacingBefore="4.75" lineSpacing="0" lineHeightMultiple="0.0" alignment="NSLeftTextAlignment" />
+	<textView
+		shouldAntialiasText="yes"
+		shouldShowNoteHandles="no"
+		shouldShowProjectHandles="yes"
+		defaultCharacterStyleID="base"
+		insertionPointColorID="insertionPoint"
+		selectionColorID="selection"
+		handleColorID="handle"
+		tagColorID="tag"
+	/>
+
+	<!-- type styles -->
+
+	<!-- PROJECT style. This section defines the styles that are applied to project lines. -->
+	<color id="projectColor" red="0.22" green="0.24" blue="0.26" alpha="1.0" />
+	<font id="projectFont" extendsFontID="base" fontTraitMask="NSBoldFontMask" size="16"/>
+	<characterStyle id="projectChar" foregroundColorID="projectColor" fontID="projectFont" />
+	<paragraphStyle id="projectPara" extendsParagraphStyleID="base" paragraphSpacingBefore="10" paragraphSpacing="5" />
+	<entryRule matchesQuery="type = &quot;project&quot;" lineCharacterStyleID="projectChar" paragraphStyleID="projectPara" />
+		<!-- uses standard font
+	<entryRule matchesQuery="type = &quot;project&quot;" paragraphStyleID="projectPara" /> -->
+
+	<!-- HEADER style. This section defines the styles that are applied to group header lines (top level projects). -->
+	<color id="headerColor" red="0.22" green="0.24" blue="0.26" alpha="1.0" />
+	<font id="headerFont" extendsFontID="base" fontTraitMask="NSBoldFontMask" size="17" />
+	<characterStyle id="headerChar" fontID="headerFont" foregroundColorID="headerColor" />
+	<paragraphStyle id="headerPara" extendsParagraphStyleID="base" paragraphSpacingBefore="20" paragraphSpacing="10" />
+	<entryRule matchesQuery="isgroupheader" lineCharacterStyleID="headerChar" paragraphStyleID="headerPara" />
+		<!-- with divider above content
+	<entryRule matchesQuery="isgroupheader" lineCharacterStyleID="headerChar" paragraphStyleID="headerPara" frontParagraphBackgroundStyleID="aboveDivider" /> -->
+
+	<!-- NOTE style. This section defines the styles that are applied to note lines. -->
+	<color id="noteColor" red="0.22" green="0.24" blue="0.26" alpha="1.0" />
+	<font id="noteFont" extendsFontID="base" />
+	<characterStyle id="noteChar" fontID="noteFont" foregroundColorID="noteColor" />
+	<entryRule matchesQuery="type = note" lineCharacterStyleID="noteChar" paragraphStyleID="base" />
+
+	<!-- TASK style. This section defines the styles that are applied to task lines. -->
+	<color id="taskColor" red="0.13" green="0.13" blue="0.13" alpha="1.0" />
+	<font id="taskFont" extendsFontID="base" />
+	<characterStyle id="taskChar" fontID="taskFont" foregroundColorID="taskColor" />
+	<entryRule matchesQuery="type = task" lineCharacterStyleID="taskChar" paragraphStyleID="base" backParagraphBackgroundStyleID="box" />
+	
+	<!-- KEYWORDS METADATA style. This section defines the styles that are applied to lines tagged with @metadata or @meta or @keys or @tags-->
+	<font id="keyFont" extendsFontID="base" fontTraitMask="NSBoldFontMask"/>
+	<characterStyle id="keyChar" fontID="keyFont"  />
+	<paragraphStyle id="keyPara" extendsParagraphStyleID="base" paragraphSpacingBefore="0" paragraphSpacing="0" />
+	<entryRule matchesQuery="@metadata or @meta or @keys or @tags" paragraphStyleID="keyPara" frontParagraphBackgroundStyleID="belowDivider" />
+		<!-- with bold font
+	<entryRule matchesQuery="@metadata or @meta or @keys or @tags" lineCharacterStyleID="keyChar" paragraphStyleID="keyPara"/> -->
+		<!-- with bold font and divider below content
+	<entryRule matchesQuery="@metadata or @meta or @keys or @tags" lineCharacterStyleID="keyChar" paragraphStyleID="keyPara" frontParagraphBackgroundStyleID="belowDivider"/> -->
+	
+	<!-- basic styles -->
+	
+	<!-- STICKY NOTE background style. Defines background that puts content in a slim yellow box. Applied to notes tagged with @sticky -->
+	<color id="stickyStart" red="1.0" green="0.97" blue="0.723" alpha="1.0" />
+	<color id="stickyEnd" red="0.99" green="0.98" blue="0.80" alpha="1.0" />
+	<gradient id="stickyGradient" startColorID="stickyStart" endColorID="stickyEnd" angle="0" />
+	<shadow id="stickyShadow" colorID="foreground" blurRadius="2" />
+	<backgroundStyle id="sticky" fillGradientID="stickyGradient" shadowID="stickyShadow" cornerRadiusX="0.5" cornerRadiusY="0.5" afterPositioningGrowWidthBy ="0" afterPositioningGrowHeightBy ="8.5"/>
+	<entryRule matchesQuery="type = note and @sticky and not @done" backParagraphBackgroundStyleID="sticky" />
+	
+	<!-- LINED NOTE background style. Defines background that puts lines under text. Applied to notes tagged with @_ and not @sticky. -->
+	<color id="linedStart" red="0.22" green="0.24" blue="0.28" alpha="0.3" />
+	<color id="linedEnd" red="0.22" green="0.24" blue="0.28" alpha="0.3" />
+	<gradient id="linedGradient" startColorID="linedStart" endColorID="linedEnd" angle="0" />
+	<backgroundStyle id="lined" fillGradientID="linedGradient" maxWidth="0" xWeight="0" maxHeight="1.0" yWeight="1.4" cornerRadiusX="0" cornerRadiusY="0" />
+	<entryRule matchesQuery="type = note and @_ and not @sticky and not @done" frontParagraphBackgroundStyleID="lined" />
+	
+	<!-- LINED DIVIDER background style. Defines background that puts a divider above or below content (slim grey line). -->
+	<backgroundStyle id="aboveDivider" extendsBackgroundStyleID="lined" yWeight="-0.5" />
+	<backgroundStyle id="belowDivider" extendsBackgroundStyleID="lined" yWeight="1.5"/>
+	<backgroundStyle id="aboveDividerPlus" extendsBackgroundStyleID="lined" yWeight="-1.3" />
+	<backgroundStyle id="belowDividerPlus" extendsBackgroundStyleID="lined" yWeight="2.3" />
+	
+	<!-- BOX TASK background style. Defines background that puts content in a slim white box. -->
+	<color id="boxStart" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+	<color id="boxEnd" red="0.93" green="0.93" blue="0.93" alpha="1.0" />
+	<gradient id="boxGradient" startColorID="boxStart" endColorID="boxEnd" angle="90" />
+	<shadow id="boxShadow" colorID="foreground" blurRadius="2" />
+	<backgroundStyle id="box" fillGradientID="boxGradient" shadowID="boxShadow" cornerRadiusX="3.0" cornerRadiusY="3.0" afterPositioningGrowWidthBy ="0" afterPositioningGrowHeightBy ="8.5"/>
+	
+	<!-- box styles -->
+	
+	<!-- GREY BOX @done style. This section defines the styles that are applied to lines tagged with @done. -->
+	<color id="grey" red="0.78" green="0.79" blue="0.82" alpha="1.0" />
+	<gradient id="greyGradient" startColorID="grey" endColorID="grey" angle="90" />
+	<backgroundStyle id="greyBox" extendsBackgroundStyleID="box" fillGradientID="greyGradient" shadowID="NULL" />
+	<!-- <color id="doneText" red="0.5" green="0.5" blue="0.5" alpha="1.0" />
+	<characterStyle id="doneChar" foregroundColorID="doneText" /> -->
+	<entryRule matchesQuery="type = task and @done" contentCharacterStyleID="doneChar" backParagraphBackgroundStyleID="greyBox" />
+	
+	<!-- YELLOW BOX @today  @focus @star style. This section defines the styles that are applied to lines tagged with @today or @focus or @star and not @done. -->
+	<color id="yellowStart" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+	<color id="yellowEnd" red="0.95" green="0.95" blue="0.75" alpha="1.0" />
+	<gradient id="yellowGradient" startColorID="yellowStart" endColorID="yellowEnd" angle="90" />
+	<backgroundStyle id="yellowBox" extendsBackgroundStyleID="box" fillGradientID="yellowGradient" />
+	<entryRule matchesQuery="type = task and @today or @focus or @star and not @done" backParagraphBackgroundStyleID="yellowBox" />
+	
+	<!-- RED BOX @overdue @important style. This section defines the styles that are applied to lines tagged with @overdue or @important and not @done. -->
+	<color id="redStart" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+	<color id="redEnd" red="0.90" green="0.79" blue="0.82" alpha="1.0" />
+	<gradient id="redGradient" startColorID="redStart" endColorID="redEnd" angle="90" />
+	<backgroundStyle id="redBox" extendsBackgroundStyleID="box" fillGradientID="redGradient" />
+	<entryRule matchesQuery="type = task and @overdue or @important and not @done" backParagraphBackgroundStyleID="redBox" />
+	
+	<!-- GREEN BOX @next @na @soon @upcoming @progress style. This section defines the styles that are applied to lines tagged with @next or @na or @soon or @upcoming or @progress and not @done and not @today. -->
+	<color id="greenStart" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+	<color id="greenEnd" red="0.80" green="0.90" blue="0.80" alpha="1.0" />
+	<gradient id="greenGradient" startColorID="greenStart" endColorID="greenEnd" angle="90" />
+	<backgroundStyle id="greenBox" extendsBackgroundStyleID="box" fillGradientID="greenGradient" />
+	<entryRule matchesQuery="type = task and @next or @na or @soon or @upcoming or @progress and not @done and not @today" backParagraphBackgroundStyleID="greenBox" />
+	
+	<!-- BLUE BOX @priority(1) @prio(1) style. This section defines the styles that are applied to lines tagged with @priority(1) or @prio(1) and not done and not @today. -->
+	<color id="blueStart" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+	<color id="blueEnd" red="0.79" green="0.85" blue="0.93" alpha="1.0" />
+	<gradient id="blueGradient" startColorID="blueStart" endColorID="blueEnd" angle="90" />
+	<backgroundStyle id="blueBox" extendsBackgroundStyleID="box" fillGradientID="blueGradient" />
+	<entryRule matchesQuery="type = task and @priority=1 or @prio=1 and not @done and not @today" backParagraphBackgroundStyleID="blueBox" />
+	
+	<!-- font styles -->
+	
+	<!-- BOLD FONT @bold @flag @move @mv style. This section defines the styles that are applied to lines tagged with @bold or @flag or @move or @mv and not @done. -->
+	<font id="boldFont" extendsFontID="base" fontTraitMask="NSBoldFontMask"/>
+	<characterStyle id="bold" fontID="boldFont" />
+	<entryRule matchesQuery="@bold or @flag or @move or @mv and not @done" lineCharacterStyleID="bold" />
+	
+	<!-- YELLOW FONT @yellow style. This section defines the styles that are applied to lines tagged with @yellow and not @done. -->
+	<color id="yellowColor" red="0.50" green="0.50" blue="0.0" alpha="1.0" />
+	<characterStyle id="yellowChar" foregroundColorID="yellowColor" />
+	<entryRule matchesQuery="@yellow and not @done" lineCharacterStyleID="yellowChar" />
+	
+	<!-- RED FONT @red style. This section defines the styles that are applied to lines tagged with @red and not @done. -->
+	<color id="redColor" red="0.53" green="0.20" blue="0.1" alpha="1.0" />
+	<characterStyle id="redChar" foregroundColorID="redColor" />
+	<entryRule matchesQuery="@red and not @done" lineCharacterStyleID="redChar" />
+	
+	<!-- GREEN FONT @green style. This section defines the styles that are applied to lines tagged with @green and not @done. -->
+	<color id="greenColor" red="0.10" green="0.53" blue="0.20" alpha="1.0" />
+	<characterStyle id="greenChar" foregroundColorID="greenColor" />
+	<entryRule matchesQuery="@green and not @done" lineCharacterStyleID="greenChar" />
+	
+	<!-- BLUE FONT @blue style. This section defines the styles that are applied to lines tagged with @blue and not @done. -->
+	<color id="blueColor" red="0.1" green="0.1" blue="0.60" alpha="1.0" />
+	<characterStyle id="blueChar" foregroundColorID="blueColor" />
+	<entryRule matchesQuery="@blue and not @done" lineCharacterStyleID="blueChar" />
+	
+	<!-- seperation styles-->
+	
+	<!-- LINE DOUBLE @a(ld) style. Add a -empty- line above and below. This section defines the styles that are applied to lines tagged with @a(ld) and not archived. -->
+	<paragraphStyle id="doubleLine" extendsParagraphStyleID="base" paragraphSpacingBefore="28" paragraphSpacing="28" />
+	<entryRule matchesQuery="@a=ld and not (@done and @project)" paragraphStyleID="doubleLine" />
+	
+	<!-- LINE ABOVE @a(la) style. Add a -empty- line above. This section defines the styles that are applied to lines tagged with @a(la) and not archived. -->
+	<paragraphStyle id="aboveLine" extendsParagraphStyleID="base" paragraphSpacingBefore="28"/>
+	<entryRule matchesQuery="@a=la and not (@done and @project)" paragraphStyleID="aboveLine" />
+	
+	<!-- LINE BELOW @a(lb) style. Add a -empty- line below. This section defines the styles that are applied to lines tagged with @a(lb) and not archived. -->
+	<paragraphStyle id="belowLine" extendsParagraphStyleID="base" paragraphSpacing="28" />
+	<entryRule matchesQuery="@a=lb and not (@done and @project)" paragraphStyleID="belowLine" />
+	
+	<!-- SPACE DOUBLE @a(sd) style. Add -empty- space above and below (half line). This section defines the styles that are applied to lines tagged with @a(sd) and not archived. -->
+	<paragraphStyle id="doublePara" extendsParagraphStyleID="base" paragraphSpacingBefore="14" paragraphSpacing="14" />
+	<entryRule matchesQuery="@a=sd and not (@done and @project)" paragraphStyleID="doublePara" />
+	
+	<!-- SPACE ABOVE @a(sa) style. Ass one empty space above (half line). This section defines the styles that are applied to lines tagged with @a(sa) and not archived. -->
+	<paragraphStyle id="abovePara" extendsParagraphStyleID="base" paragraphSpacingBefore="14"/>
+	<entryRule matchesQuery="@a=sa and not (@done and @project)" paragraphStyleID="abovePara" />
+	
+	<!-- SPACE BELOW @a(sb) style. Enters one empty space below (half line). This section defines the styles that are applied to lines tagged with @a(sb) and not archived. -->
+	<paragraphStyle id="belowPara" extendsParagraphStyleID="base" paragraphSpacing="14" />
+	<entryRule matchesQuery="@a=sb and not (@done and @project)" paragraphStyleID="belowPara" />
+	
+	<!-- DIVIDER ABOVE @a(da) style. Add a divider above. This section defines the styles that are applied to lines tagged with @a(da) and not archived. -->
+	<entryRule matchesQuery="@a=da and not (@done and @project)" paragraphStyleID="aboveLine" frontParagraphBackgroundStyleID="aboveDividerPlus" />
+	
+	<!-- DIVIDER BELOW @a(db) style. Add a divider below. This section defines the styles that are applied to lines tagged with @a(db) and not archived. -->
+	<entryRule matchesQuery="@a=db and not (@done and @project)" paragraphStyleID="belowLine" frontParagraphBackgroundStyleID="belowDividerPlus" />
+	
+</theme>
