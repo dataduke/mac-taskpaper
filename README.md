@@ -29,6 +29,8 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 - easy to manipulate with a lot of tools (editors, command line tools, scripts, cron-jobs, application launchers)
 - easy to maintain with version control (git, svn, cvs, mercurial...) and syncing apps (dropbox...)
 - easy to integrate (wallpaper, stickies, printed paper, widgets, websites, wikis)
+- small and thus can be stored, viewed and accessed for your whole lifespan!
+- (secret) task lists can be secured easily via encryption
 
 ## References
 
