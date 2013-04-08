@@ -19,7 +19,7 @@ As (1) the next platform (android) emerged, (2) I was dealing with enterprise ti
 
 This is basically how I got back to using plaintext and taskpaper for improved aesthetics, the review-process and retrospectives. (Even though I watched the live presentation of omnifocus 2 the day it was online I will not switch away from plaintext in the future.)
 
-## Advantages of plaintext tasks
+### Advantages of plaintext tasks
 
 *Why I recommend to keep it simple (KISS).*
 
@@ -55,13 +55,13 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 
 *If you still want to get trapped check out these apps.*
 
-- [Nozbe](http://www.nozbe.com/): Started out as a task management website for individuals and teams with deep integration to a lot of services (most popular today, evernote, google calender, dropbox) promoted by a very talented founder, blogger and screencaster and magazine creator. It has constantly grown and added an iphone app, added a mac app, added a windows app, added android support. Today it offers the most complete solution with the highest developmental progress over time.
-- [Omnifocus](http://www.omnigroup.com/products/omnifocus/): Only shortcoming was the complex layout of filters in the mac app, but this will be fixed with the near arrival of version 2.
-- [Things](http://culturedcode.com/things/): As they over-engineered their website design, blog posts and mainly the long announced and awaited push and cloud sync service the customer service in the forums went very low, diplomatically spoken. It was a very rough 3 year long developement phase but they finally delivered a perfect cloud sync system/framework, which Apple itself would probably have use/build (with a lot more resource power).
+- [Nozbe](http://www.nozbe.com/): Started out as a task management website for individuals and teams with deep integration to a lot of services (most popular today: evernote, google calender, dropbox) promoted by a very talented and productive founder, blogger and magazine creator. It has constantly grown and added an iphone app, added a mac app, added a windows app, added android support. Today it offers the most complete solution with the highest developmental progress over time.
+- [Omnifocus](http://www.omnigroup.com/products/omnifocus/): OmniGroup is well-known for its very thoughtful and highly functional application designs. The only shortcoming with the Omnifocus plattform is the complex layout of filters in the mac app, but this is fixed with the arrival of version 2.
+- [Things](http://culturedcode.com/things/): As the company focused (*over-engineered*) on its website design, blog posts and mainly the long announced and awaited cloud push sync feature the customer service in their forums went very low (diplomatically spoken). It was a very rough 3 year long development phase but they finally delivered a perfect cloud sync system/framework, which Apple itself would probably have implemented similarly (with a lot more resource power).
 
 ### Honorable Mentions
 
-*Applications with recognizable approaches but no real successful on the market*
+*Applications with recognizable approaches but no real success on the market.*
 
 - [The Hitlist](http://www.potionfactory.com/thehitlist/): Known for its flexible task presentation, time tracking and its once superior mac app design in comparison to things and omnifocus. Shortcomings: Sadly the indy developer couldn't deliver an iphone app at the right time to market - when a lot of early adopter (multiplicators) were asking, because of the mixed experiences with omnifocus and things.
 - [Helium Task Management](http://www.heliumnow.com/): Known for its very good app design and email integration (similar to the new mail.app for iphone). Shortcomings: Maybe lack of investors. 
