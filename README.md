@@ -30,36 +30,31 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 - [GTD Times](http://www.gtdtimes.com/) by David Allen
 - [Books](http://patrickrhone.com/books/)
 
-### Simple Tools
+### Plaintext Tools
 
-*I would recommend any of the following*
+*I would recommend any of the following.*
 
 - [TaskPaper](http://www.hogbaysoftware.com/products/taskpaper)
 - [FoldingText](http://www.foldingtext.com/)
 - [orgMode](http://orgmode.org/), [emacs](http://www.gnu.org/software/emacs/)
 - [VimOrganizer](http://www.vim.org/scripts/script.php?script_id=3342) [github-repo](https://github.com/hsitz/VimOrganizer), [vim](http://www.vim.org/)
-- [todo.txt](http://todotxt.com/) by Gina Trapani [github-repos](https://github.com/ginatrapani)
+- [todo.txt](http://todotxt.com/), [github-repos](https://github.com/ginatrapani) by Gina Trapani
 - [taskwarrior](http://taskwarrior.org)
-- [nvAlt](http://brettterpstra.com/projects/nvalt/), [nv](http://notational.net/) for plaintext lists,
+- [nvAlt](http://brettterpstra.com/projects/nvalt/), [nv](http://notational.net/) and similar apps.
 
 ### Best Mac Applications
 
-*If you still want to be should check out these apps*
+*If you still want to get trapped in an application check out these apps.*
 
 - [Nozbe](http://www.nozbe.com/): Started out as a task management website for individuals and teams with deep integration to a lot of services (most popular today, evernote, google calender, dropbox) promoted by a very talented founder, blogger and screencaster and magazine creator. It has constantly grown and added an iphone app, added a mac app, added a windows app, added android support. Today it offers the most complete solution with the highest developmental progress over time.
-
 - [Omnifocus](http://www.omnigroup.com/products/omnifocus/): Only shortcoming was the complex layout of filters in the mac app, but this will be fixed with the near arrival of version 2.
-
 - [Things](http://culturedcode.com/things/): As they over-engineered their website design, blog posts and mainly the long announced and awaited push and cloud sync service the customer service in the forums went very low, diplomatically spoken. It was a very rough 3 year long developement phase but they finally delivered a perfect cloud sync system/framework, which Apple itself would probably have use/build (with a lot more resource power).
-
 - [Organize](http://taskfabric.com/): Focuses on task visualization and rich interfaces but lacks really fitting application design.
 
 ### Honorable Mentions
 
-* Tools with very good approaches but failed on the market *
+*Tools with very good approaches but failed on the market*
 
 - [The Hitlist](http://www.potionfactory.com/thehitlist/): Known for its flexible task presentation, time tracking and its once superior mac app design in comparison to things and omnifocus. Shortcomings: Sadly the indy developer couldn't deliver an iphone app at the right time to market - when a lot of nerds were asking, because of the mixed experiences with omnifocus and things.
-
 - [Helium Task Management](http://www.heliumnow.com/) Known for its very good app design and email integration (similar to the new mail.app for iphone). Shortcomings: Maybe lack of investors. 
-
 - [Easy Task Manager](http://www.orionbelt.com/): Known as the first system to offer support for all major plattforms. Shortcomings: Very basic and old school application design and limited features.
