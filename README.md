@@ -34,12 +34,10 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 
 *I would recommend any of the following.*
 
-- [TaskPaper](http://www.hogbaysoftware.com/products/taskpaper)
-- [FoldingText](http://www.foldingtext.com/)
+- [TaskPaper](http://www.hogbaysoftware.com/products/taskpaper), [FoldingText](http://www.foldingtext.com/)
 - [orgMode](http://orgmode.org/), [emacs](http://www.gnu.org/software/emacs/)
-- [VimOrganizer](http://www.vim.org/scripts/script.php?script_id=3342) [github-repo](https://github.com/hsitz/VimOrganizer), [vim](http://www.vim.org/)
-- [todo.txt](http://todotxt.com/), [github-repos](https://github.com/ginatrapani) by Gina Trapani
-- [taskwarrior](http://taskwarrior.org)
+- [VimOrganizer](http://www.vim.org/scripts/script.php?script_id=3342), [github-repo](https://github.com/hsitz/VimOrganizer), [vim](http://www.vim.org/)
+- [todo.txt](http://todotxt.com/), [github-repos](https://github.com/ginatrapani) by Gina Trapani, [taskwarrior](http://taskwarrior.org)
 - [nvAlt](http://brettterpstra.com/projects/nvalt/), [nv](http://notational.net/) and similar apps.
 
 ### Best Mac Applications
