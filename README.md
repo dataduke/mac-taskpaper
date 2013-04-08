@@ -21,7 +21,7 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 
 ## Advantages of plaintext tasks
 
-- independent from (task) management method (GTD, Scrum, Agile, Kanban, Eisenhower Matrix, POSEC, own approach)
+- independent from (task) management method (GTD, Scrum, Agile, Kanban, Eisenhower Matrix, POSEC, own approach...)
 - independent from operating system, platform and applications
 - easy to manipulate with a lot of tools (editors, command line tools, scripts, cron-jobs, application launchers)
 - easy to maintain with version control (git, svn, cvs, mercurial...) and syncing apps (dropbox...)
