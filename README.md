@@ -26,7 +26,7 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 
 ### Productivity Blogs
 
-*Some hints to get you started *
+*Some hints to get you started*
 
 - [List of Productivity Blogs](http://zenhabits.net/the-top-50-productivity-blogs-most-of-which-you-havent-heard-about/)
 - [43 Folders](http://www.43folders.com/) by Merlin Mann
@@ -35,7 +35,7 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 
 ### Simple Tools
 
-*I would recommend any of the following *
+*I would recommend any of the following*
 
 - [TaskPaper](http://www.hogbaysoftware.com/products/taskpaper)
 - [FoldingText](http://www.foldingtext.com/)
@@ -46,7 +46,7 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 
 ### Best Mac Applications
 
-*If you still want to be should check out these apps *
+*If you still want to be should check out these apps*
 
 - [Nozbe](http://www.nozbe.com/): Started out as a task management website for individuals and teams with deep integration to a lot of services (most popular today, evernote, google calender, dropbox) promoted by a very talented founder, blogger and screencaster and magazine creator. It has constantly grown and added an iphone app, added a mac app, added a windows app, added android support. Today it offers the most complete solution with the highest developmental progress over time.
 
