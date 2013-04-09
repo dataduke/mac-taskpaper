@@ -98,4 +98,4 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 - [Helium Task Management](http://www.heliumnow.com/), [videos](http://www.youtube.com/user/robotblimp): Known for its very good app design and email integration (similar to the new mail.app for iphone). Shortcomings: Maybe lack of investors. 
 - [Easy Task Manager](http://www.orionbelt.com/): Known as the first system to offer support for all major plattforms. Shortcomings: Very basic and old school application design and limited features.
 - [Organize](http://taskfabric.com/): Focuses on task visualization and rich interfaces but lacks really fitting application design.
-- [Notebook](http://www.circusponies.com): Uses the traditional memo pad approach.
+- [NoteBook](http://www.circusponies.com): Uses the traditional memo pad approach.
