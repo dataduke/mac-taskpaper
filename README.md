@@ -46,6 +46,8 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 - [Productive! Blog, Show, Magazine](http://www.michaelsliwinski.com/) by Michael Sliwinski
 - [SimplicityBliss](http://simplicitybliss.com/)
 - [AsianEfficiency](http://www.asianefficiency.com/blog/)
+- [Practically efficient](http://www.practicallyefficient.com/)
+- [Minimal Mac](http://minimalmac.com/)
 - [Time Management](http://en.wikipedia.org/wiki/Time_management)
 - [Keep It Straight (book), enough (Book)](http://patrickrhone.com/books/) by Patrick Rhone
 
