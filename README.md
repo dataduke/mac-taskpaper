@@ -4,6 +4,8 @@ Taskpaper Themes and Settings.
 
 ## Themes
 
+In the last years I created some themes for taskpaper. The theme `Things Colors.taskpapertheme` is the own I settled with a over year ago and use it (nearly) on a daily basis, having not changed anything nor switched away ever since.
+
 ## Some Background Thoughts
 
 A long time ago, my task lists were held on simple `.txt` files or on `.xls` sheets for certain topics,
