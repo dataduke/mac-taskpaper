@@ -8,7 +8,7 @@ In the last years I created some themes for taskpaper. The theme `Things Colors.
 
 ### Installation
 
-move themes `~/Library/Application Support/TaskPaper/Themes`
+Move themes to `~/Library/Application Support/TaskPaper/Themes`
 
 ## Background Thoughts
 
