@@ -1,13 +1,14 @@
 Title: Title - Subtitle
-Keywords: #tasks #tag #tag #tag #tag (puts a line below metadata:) @metadata or @meta or @keys or @tags
+Keywords: #tasks #tag #tag #tag #tag (puts a divider below:) @metadata or @meta or @keys or @tags
 Basic Notes:
 	normal note
 	boxed note @sticky
-	lined note (puts a line below note:)  @_
+	lined note (puts a divider below:)  @_
 Basic Tasks:
 	- task
 	- task @done
 Box Styles:
+	- light box
 	- grey box @done or @done(2013-01-01)
 	- yellow box @today or @focus or @star
 	- red box @overdue or @important
