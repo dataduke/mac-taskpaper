@@ -10,7 +10,7 @@ Move themes to `~/Library/Application Support/TaskPaper/Themes`
 
 ## Things Colors
 
-In the last years I created some themes for taskpaper. The theme `Things Colors.taskpapertheme` is the last and most feature rich one I created a year ago. I use it (nearly) on a daily basis, having not changed anything nor switched away ever since. 
+In the last years I created some themes for taskpaper. The theme `Things Colors.taskpapertheme` is the last and most feature rich one I designed a year ago on the basis of [Things.app](http://culturedcode.com/things/) by Cultured Code and the shipped theme `Things.taskpapertheme` by Jesse Grosjean. I use this theme (nearly) on a daily basis, having not changed anything nor switched away ever since. 
 
 ### Variants
 
