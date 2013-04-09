@@ -1,0 +1,83 @@
+<theme>
+  <!--Solarize color pallette, see http://ethanschoonover.com/solarized-->
+  <color id="blue" red="0.149" green="0.545" blue="0.824" alpha="1.0"/>
+  <color id="base01" red="0.345" green="0.431" blue="0.459" alpha="1.0"/>
+  <color id="base00" red="0.396" green="0.482" blue="0.514" alpha="1.0"/>
+  <color id="base03" red="0.000" green="0.169" blue="0.212" alpha="1.0"/>
+  <color id="base02" red="0.027" green="0.212" blue="0.259" alpha="1.0"/>
+  <color id="yellow" red="0.710" green="0.537" blue="0.000" alpha="1.0"/>
+  <color id="base0" red="0.514" green="0.580" blue="0.588" alpha="1.0"/>
+  <color id="base1" red="0.576" green="0.631" blue="0.631" alpha="1.0"/>
+  <color id="base2" red="0.933" green="0.910" blue="0.835" alpha="1.0"/>
+  <color id="base3" red="0.992" green="0.965" blue="0.890" alpha="1.0"/>
+  <color id="green" red="0.522" green="0.600" blue="0.000" alpha="1.0"/>
+  <color id="violet" red="0.424" green="0.443" blue="0.769" alpha="1.0"/>
+  <color id="orange" red="0.796" green="0.294" blue="0.086" alpha="1.0"/>
+  <color id="cyan" red="0.165" green="0.631" blue="0.596" alpha="1.0"/>
+  <color id="magenta" red="0.827" green="0.212" blue="0.510" alpha="1.0"/>
+  <color id="red" red="0.863" green="0.196" blue="0.184" alpha="1.0"/>
+  <!--Mapping to taskpaper entities-->
+  <color id="foreground" extendsColorID="base02"/>
+  <color id="selection" extendsColorID="base02"/>
+  <color id="handle" extendsColorID="base02"/>
+  <color id="someday" extendsColorID="violet"/>
+  <color id="insertionPoint" extendsColorID="base0"/>
+  <color id="header" extendsColorID="base1"/>
+  <color id="tag" extendsColorID="base01"/>
+  <color id="done" extendsColorID="base02"/>
+  <color id="background" extendsColorID="base03"/>
+  <color id="note" extendsColorID="green"/>
+  <color id="task" extendsColorID="base01"/>
+  <color id="project" extendsColorID="base0"/>
+  <color id="overdue" extendsColorID="red"/>
+  <color id="today" extendsColorID="orange"/>
+  <color id="priority" extendsColorID="yellow"/>
+  <!--Task-->
+  <color id="task" extendsColorID="task"/>
+  <font id="task" extendsFontID="base"/>
+  <characterStyle foregroundColorID="task" id="task"/>
+  <entryRule paragraphStyleID="base" matchesQuery="type = task" lineCharacterStyleID="task"/>
+  <!--@someday-->
+  <color id="someday" extendsColorID="someday"/>
+  <characterStyle foregroundColorID="someday" id="someday" fontID="base"/>
+  <entryRule matchesQuery="@someday and not @done" lineCharacterStyleID="someday"/>
+  <!--Project-->
+  <color id="project" extendsColorID="project"/>
+  <entryRule paragraphStyleID="project" matchesQuery="type = &quot;project&quot;" lineCharacterStyleID="project"/>
+  <characterStyle foregroundColorID="project" id="project" fontID="base"/>
+  <paragraphStyle paragraphSpacing="0" paragraphSpacingBefore="0" id="project" extendsParagraphStyleID="base"/>
+  <!--Window-->
+  <window foregroundColorID="foreground" backgroundColorID="background" shouldUseHUDScrollers="yes"/>
+  <!--@done-->
+  <color id="done" extendsColorID="done"/>
+  <characterStyle foregroundColorID="done" id="done" fontID="base" strikethroughStyle="NSUnderlineStyleSingle"/>
+  <entryRule matchesQuery="@done" contentCharacterStyleID="done"/>
+  <!--GroupHeader-->
+  <color id="groupHeader" extendsColorID="header"/>
+  <entryRule paragraphStyleID="groupHeader" matchesQuery="isgroupheader" lineCharacterStyleID="groupHeader"/>
+  <font size="14" id="groupHeader" name="Monaco"/>
+  <characterStyle foregroundColorID="header" id="groupHeader" fontID="groupHeader"/>
+  <paragraphStyle paragraphSpacing="7" paragraphSpacingBefore="12" id="groupHeader" extendsParagraphStyleID="base"/>
+  <!--textView-->
+  <font size="12" id="base" name="Monaco"/>
+  <textView shouldShowNoteHandles="yes" tagColorID="tag" handleColorID="handle" shouldShowProjectHandles="yes" selectionColorID="selection" shouldAntialiasText="yes" insertionPointColorID="insertionPoint" defaultCharacterStyleID="base"/>
+  <characterStyle foregroundColorID="foreground" id="base" fontID="base"/>
+  <paragraphStyle paragraphSpacing="4" paragraphSpacingBefore="0" lineSpacing="0" lineHeightMultiple="1.0" id="base" alignment="NSLeftTextAlignment"/>
+  <!--Note-->
+  <color id="note" extendsColorID="note"/>
+  <font id="note" extendsFontID="base"/>
+  <characterStyle foregroundColorID="note" id="note" fontID="note"/>
+  <entryRule paragraphStyleID="base" matchesQuery="type = note" lineCharacterStyleID="note"/>
+  <!--@overdue-->
+  <color id="overdue" extendsColorID="overdue"/>
+  <characterStyle foregroundColorID="overdue" id="overdue" fontID="overdue"/>
+  <entryRule matchesQuery="@overdue and not @done" lineCharacterStyleID="overdue"/>
+  <!--@priority-->
+  <color id="priority" extendsColorID="priority"/>
+  <characterStyle foregroundColorID="priority" id="priority" fontID="base"/>
+  <entryRule matchesQuery="@high and not @done" lineCharacterStyleID="priority"/>
+  <!--@today-->
+  <color id="today" extendsColorID="today"/>
+  <characterStyle foregroundColorID="today" id="today" fontID="base"/>
+  <entryRule matchesQuery="@today and not @done" lineCharacterStyleID="today"/>
+</theme>
