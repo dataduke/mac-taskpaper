@@ -1,5 +1,5 @@
 Title: Title - Subtitle
-Keywords: #tasks #tag #tag #tag #tag (puts a divider below:) @metadata or @meta or @keys or @tags
+Keywords: #tasks #tag #tag #tag (puts a divider below:) @metadata or @meta or @keys or @tags
 Basic Notes:
 	normal note
 	boxed note @sticky
@@ -15,7 +15,7 @@ Box Styles:
 	- green box @next or @na or @soon or @upcoming or @progress
 	- blue box @priority(1) or @prio(1)
 Font Styles:
-	- note or task with bold font @bold or @flag or @move(toThisProject) or @mv(project)
+	- note or task with bold font @bold or @flag or @move(tothisProject) or @mv(project)
 	note or task with blue font @blue
 	note or task with green font @green
 	note or task with red font @red
