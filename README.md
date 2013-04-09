@@ -36,7 +36,7 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 
 ## References
 
-### Productivity Blogs
+### Productivity Resources
 
 *Here are some pointers to get you started.*
 
@@ -44,6 +44,8 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 - [43 Folders](http://www.43folders.com/) by Merlin Mann
 - [GTD Times](http://www.gtdtimes.com/) by David Allen
 - [Books](http://patrickrhone.com/books/)
+- [Time Management](http://en.wikipedia.org/wiki/Time_management)
+- [SimplicityBliss](http://simplicitybliss.com/)
 
 ### Plaintext Tools
 
@@ -60,7 +62,7 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 *If you still want to get trapped check out these apps.*
 
 - [Nozbe](http://www.nozbe.com/): Started out as a task management website for individuals and teams with deep integration to a lot of services (most popular today: evernote, google calender, dropbox) promoted by a very talented and productive founder, blogger and magazine creator. It has constantly grown and added an iphone app, added a mac app, added a windows app, added android support. Today it offers the most complete solution with the highest developmental progress over time.
-- [Omnifocus](http://www.omnigroup.com/products/omnifocus/): OmniGroup is well-known for its very thoughtful and highly functional application designs. The only shortcoming with the Omnifocus plattform is the complex layout of filters in the mac app, but this is fixed with the arrival of version 2.
+- [Omnifocus](http://www.omnigroup.com/products/omnifocus/), [Using Omnifocus](http://www.usingomnifocus.com/blog/), [SimplicityBliss](http://simplicitybliss.com/omnifocus/), [AsianEfficiency](http://www.asianefficiency.com/omnifocus/): OmniGroup is well-known for its very thoughtful and highly functional application designs. The only shortcoming with the Omnifocus plattform is the complex layout of filters in the mac app, but this is fixed with the arrival of version 2.
 - [Things](http://culturedcode.com/things/): As the company focused (*over-engineered*) on its website design, blog posts and mainly the long announced and awaited cloud push sync feature the customer service in their forums went very low (diplomatically spoken). It was a very rough 3 year long development phase but they finally delivered a perfect cloud sync system/framework, which Apple itself would probably have implemented similarly (with a lot more resource power).
 
 ### Honorable Mentions
