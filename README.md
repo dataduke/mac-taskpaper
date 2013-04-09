@@ -4,7 +4,7 @@ Taskpaper Themes and Settings.
 
 ## Themes
 
-In the last years I created some themes for taskpaper. The theme `Things Colors.taskpapertheme` is the own I settled with over year ago and use it (nearly) on a daily basis, having not changed anything nor switched away ever since.
+In the last years I created some themes for taskpaper. The theme `Things Colors.taskpapertheme` is the last and most feature rich one I created a year ago. I use it (nearly) on a daily basis, having not changed anything nor switched away ever since.
 
 ## Some Background Thoughts
 
