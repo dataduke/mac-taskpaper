@@ -14,11 +14,11 @@ Box Styles:
 	- green box @next or @na or @soon or @upcoming or @progress
 	- blue box @priority(1) or @prio(1)
 Font Styles:
-	- task with bold font @bold or @flag or @move(toThisProject) or @mv(project)
-	- task with blue font @blue
-	- task with green font @green
-	- task with red font @red
-	- task with yellow font @yellow
+	- note or task with bold font @bold or @flag or @move(toThisProject) or @mv(project)
+	note or task with blue font @blue
+	note or task with green font @green
+	note or task with red font @red
+	note or task with yellow font @yellow
 Seperation Styles > Empty Space:
 	- seperation = space = 0.5 empty lines
 	- task
