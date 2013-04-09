@@ -114,7 +114,7 @@
 	<characterStyle id="doneChar" foregroundColorID="doneText" /> -->
 	<entryRule matchesQuery="type = task and @done" contentCharacterStyleID="doneChar" backParagraphBackgroundStyleID="greyBox" />
 	
-	<!-- YELLOW BOX @today  @focus @star style. This section defines the styles that are applied to lines tagged with @today or @focus or @star and not @done. -->
+	<!-- YELLOW BOX @today @focus @star style. This section defines the styles that are applied to lines tagged with @today or @focus or @star and not @done. -->
 	<color id="yellowStart" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 	<color id="yellowEnd" red="0.95" green="0.95" blue="0.75" alpha="1.0" />
 	<gradient id="yellowGradient" startColorID="yellowStart" endColorID="yellowEnd" angle="90" />

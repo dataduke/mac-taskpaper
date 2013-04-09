@@ -1,0 +1,50 @@
+Title: Title - Subtitle
+Keywords: #tasks #tag #tag #tag #tag (puts a line below metadata:) @metadata or @meta or @keys or @tags
+Basic Notes:
+	normal note
+	boxed note @sticky
+	lined note (puts a line below note:)  @_
+Basic Tasks:
+	- task
+	- task @done
+Box Styles:
+	- grey box @done or @done(2013-01-01)
+	- yellow box @today or @focus or @star
+	- red box @overdue or @important
+	- green box @next or @na or @soon or @upcoming or @progress
+	- blue box @priority(1) or @prio(1)
+Font Styles:
+	- task with bold font @bold or @flag or @move(toThisProject) or @mv(project)
+	- task with blue font @blue
+	- task with green font @green
+	- task with red font @red
+	- task with yellow font @yellow
+Seperation Styles > Empty Space:
+	- seperation = space = 0.5 empty lines
+	- task
+	- add space double (above and below) task @a(sd)
+	- task
+	- add space above task @a(sa)
+	- task
+	- add space below task @a(sb)
+	- task
+	- task
+Seperation Styles > Empty Divider:
+	- seperation = 1 empty line with divider
+	- task
+	- add divider above @a(da)
+	- task
+	- add divider below @a(db)
+	- task
+	- task
+Seperation Styles > Empty Line:
+	- seperation = 1 empty line
+	- task
+	- add line double (above and below) task @a(ld)
+	- task
+	- add line above task @a(la)
+	- task
+	- add line below task @a(lb)
+	- task
+	- task
+
