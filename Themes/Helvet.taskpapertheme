@@ -1,0 +1,65 @@
+<theme>
+	<!-- Window Style -->
+	<color id="foreground" red="1.0" green=".2" blue=".2" alpha="1.0" />
+	<color id="background" red="0.98" green="0.98" blue="0.98" alpha="1.0" />
+	<window foregroundColorID="foreground" backgroundColorID="background" shouldUseHUDScrollers="no" />
+
+	<!-- Text View Style -->
+	<color id="tag" red=".16" green=".74" blue=".8" alpha="1.0" />
+	<color id="handle" extendsColorID="foreground" />
+	<color id="insertionPoint" red=".4" green=".4" blue=".4" alpha="1.0" />
+	<color id="selection" red=".8" green=".8" blue=".8" alpha="1.0" />
+	<font id="base" name="Helvetica Light" size="16" />
+	<characterStyle id="base" fontID="base" foregroundColorID="foreground" />
+	<paragraphStyle id="base" paragraphSpacingBefore="0" paragraphSpacing="4" lineSpacing="0" lineHeightMultiple="1.2" alignment="NSLeftTextAlignment" />
+	<textView
+		shouldAntialiasText="yes"
+		shouldShowNoteHandles="no"
+		shouldShowProjectHandles="no"
+		defaultCharacterStyleID="base"
+		insertionPointColorID="insertionPoint"
+		selectionColorID="selection"
+		handleColorID="handle"
+		tagColorID="tag"
+	/>
+
+	<!-- Task style. This section defines the styles that are applied to task lines. -->
+	<color id="task" red=".25" green=".25" blue=".25" alpha="1.0" />
+	<font id="task" extendsFontID="base" />
+	<characterStyle id="task" fontID="task" foregroundColorID="task" />
+	<entryRule matchesQuery="type = task" lineCharacterStyleID="task" paragraphStyleID="base" />
+
+	<!-- Project style. This section defines the styles that are applied to project lines. -->
+	<color id="project" red=".58" green=".19" blue=".18" alpha="1.0" />
+	<font id="project" name="Helvetica Light" size="21" />
+	<characterStyle id="project" fontID="project" foregroundColorID="project" />
+	<paragraphStyle id="project" extendsParagraphStyleID="base" paragraphSpacingBefore="0" paragraphSpacing="4" />
+	<entryRule matchesQuery="type = &quot;project&quot;" lineCharacterStyleID="project" paragraphStyleID="project" />
+
+	<!-- Note style. This section defines the styles that are applied to note lines. -->
+	<color id="note" red=".5" green=".5" blue=".5" alpha="1.0" />
+	<font id="note" name="Helvetica Light" size="15" />
+	<characterStyle id="note" fontID="note" foregroundColorID="note" />
+	<entryRule matchesQuery="type = note" lineCharacterStyleID="note" paragraphStyleID="base" />
+
+	<!-- GroupHeader style. This section defines the styles that are applied to groupHeader lines. (top level projects) -->
+	<color id="groupHeader"  red=".86" green=".22" blue=".21" alpha="1.0" />
+	<font id="groupHeader" name="Helvetica Light" size="32" />
+	<characterStyle id="groupHeader" fontID="groupHeader" foregroundColorID="groupHeader" />
+	<paragraphStyle id="groupHeader" extendsParagraphStyleID="base" paragraphSpacingBefore="19" paragraphSpacing="7" />
+	<entryRule matchesQuery="isgroupheader" paragraphStyleID="groupHeader" lineCharacterStyleID="groupHeader" />
+
+	<!-- @today @focus @soon style. This section defines the styles that are applied to lines tagged with @prio. -->
+    <color id="star" red="0.3" green="0.0" blue="0.0" alpha="1.0" />
+    <characterStyle id="star" foregroundColorID="star" />
+    <font id="star" name="Helvetica Light" size="21" />
+    <entryRule matchesQuery="@today" contentCharacterStyleID="star" fontID="star" /> 
+    <entryRule matchesQuery="@focus" contentCharacterStyleID="star" />
+    <entryRule matchesQuery="@overdue" contentCharacterStyleID="star" />  
+	
+	<!-- @done style. This section defines the styles that are applied to lines tagged with @done. -->
+	<color id="done" red=".8" green=".8" blue=".8" alpha="1.0" />
+	<characterStyle id="done" foregroundColorID="done" strikethroughStyle="NSUnderlineStyleSingle" />
+	<entryRule matchesQuery="@done" contentCharacterStyleID="done" />
+
+</theme>

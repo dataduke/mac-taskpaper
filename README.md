@@ -55,7 +55,7 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 
 *I recommend any of the following tools.*
 
-- [TaskPaper](http://www.hogbaysoftware.com/products/taskpaper), [FoldingText](http://www.foldingtext.com/) by by Jesse Grosjean
+- [TaskPaper](http://www.hogbaysoftware.com/products/taskpaper), [FoldingText](http://www.foldingtext.com/) by Jesse Grosjean
 - [orgMode](http://orgmode.org/), [emacs](http://www.gnu.org/software/emacs/)
 - [VimOrganizer](http://www.vim.org/scripts/script.php?script_id=3342), [github-repo](https://github.com/hsitz/VimOrganizer), [vim](http://www.vim.org/)
 - [todo.txt](http://todotxt.com/), [github-repos](https://github.com/ginatrapani) by Gina Trapani, [taskwarrior](http://taskwarrior.org)

@@ -1,0 +1,76 @@
+<theme>
+
+<!-- Pink red="0.953" green="0.027" blue="0.596" -->
+
+
+	<!-- Window Style -->
+	<color id="foreground" red="1.0" green=".2" blue=".2" alpha="1.0" />
+	<color id="background" red="0.992" green="0.992" blue="0.992" alpha="1.0" />
+	<window foregroundColorID="foreground" backgroundColorID="background" shouldUseHUDScrollers="yes" />
+
+	<!-- Text View Style -->
+	<color id="tag" red=".502" green=".502" blue=".502" alpha="1.0" />
+	<color id="handle" red="0.004" green="0.404" blue="1.0" alpha="1.0" />
+	<color id="insertionPoint" red=".4" green=".4" blue=".4" alpha="1.0" />
+	<color id="selection" red=".941" green=".898" blue=".0" alpha="1.0" />
+	<font id="base" name="Helvetica Neue" size="0" />
+	<characterStyle id="base" fontID="base" foregroundColorID="foreground" />
+	<paragraphStyle id="base" paragraphSpacingBefore="0" paragraphSpacing="0" lineSpacing="2" lineHeightMultiple="1.0" alignment="NSLeftTextAlignment" />
+	<textView
+		shouldAntialiasText="yes"
+		shouldShowNoteHandles="no"
+		shouldShowProjectHandles="yes"
+		defaultCharacterStyleID="base"
+		insertionPointColorID="insertionPoint"
+		selectionColorID="selection"
+		handleColorID="handle"
+		tagColorID="tag"
+	/>
+
+	<!-- Tasks -->
+	<color id="task" red=".2" green=".2" blue=".2" alpha="1.0" />
+	<font id="task" extendsFontID="base" />
+	<characterStyle id="task" fontID="task" foregroundColorID="task" />
+	<entryRule matchesQuery="type = task" lineCharacterStyleID="task" paragraphStyleID="base" />
+
+	<!-- Secondary Topics -->
+	<color id="project" red="0.004" green="0.404" blue="1.0" alpha="1.0" />
+	<font id="project" name="Helvetica Neue Light" size="18" />
+	<characterStyle id="project" fontID="project" foregroundColorID="project" />
+	<paragraphStyle id="project" extendsParagraphStyleID="base" paragraphSpacingBefore="10" paragraphSpacing="4" />
+	<entryRule matchesQuery="type = &quot;project&quot;" lineCharacterStyleID="project" paragraphStyleID="project" />
+
+	<!-- Notes -->
+	<color id="note" red=".6" green=".6" blue=".6" alpha="1.0" />
+	<font id="note" extendsFontID="base" />
+	<characterStyle id="note" fontID="note" foregroundColorID="note" />
+	<entryRule matchesQuery="type = note" lineCharacterStyleID="note" paragraphStyleID="base" />
+
+	<!-- Primary Topics -->
+	<color id="groupHeader" red="0.953" green="0.027" blue="0.596" alpha="1.0" />
+	<font id="groupHeader" name="Helvetica Neue Light" size="22" />
+	<characterStyle id="groupHeader" fontID="groupHeader" foregroundColorID="groupHeader" />
+	<paragraphStyle id="groupHeader" extendsParagraphStyleID="base" paragraphSpacingBefore="20" paragraphSpacing="7" />
+	<entryRule matchesQuery="isgroupheader" paragraphStyleID="groupHeader" lineCharacterStyleID="groupHeader" />
+
+	<!-- @done -->
+	<color id="doneText" red="0.5" green="0.5" blue="0.5" alpha="1.0" />
+	<characterStyle id="done" foregroundColorID="doneText" strikethroughStyle="NSUnderlineStyleSingle" />
+	<entryRule matchesQuery="@done" contentCharacterStyleID="done" />	
+
+	<!-- @now and @tomorrow -->
+	<color id="now" red=".0" green=".6" blue=".0" alpha="1.0" />
+	<characterStyle id="now" foregroundColorID="now" />
+	<entryRule matchesQuery="@now" contentCharacterStyleID="now" />
+	<entryRule matchesQuery="@tomorrow" contentCharacterStyleID="now" />
+
+	<!-- @next -->
+	<color id="next" red="0.882" green="0.510" blue="0.0" alpha="1.0" />
+	<characterStyle id="next" foregroundColorID="next" />
+	<entryRule matchesQuery="@next" contentCharacterStyleID="next" />
+
+	<!-- @queue -->
+	<color id="queue" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+	<characterStyle id="queue" foregroundColorID="queue" />
+	<entryRule matchesQuery="@queue" contentCharacterStyleID="queue" />
+</theme>

@@ -1,0 +1,92 @@
+<theme>
+    <!-- Window Style -->
+    <color id="foreground" red="0" green="0" blue="0" alpha="1.0" />
+    <color id="background" red="1" green="1" blue="1" alpha="1.0" />
+    <window foregroundColorID="foreground" backgroundColorID="background" shouldUseHUDScrollers="no" />
+
+    <!-- Text View Style -->
+    <color id="tag" red="0.5" green="0" blue="0.5" alpha="1.0" />
+    <color id="handle" extendsColorID="foreground" />
+    <color id="insertionPoint" extendsColorID="foreground" />
+    <color id="selection" red="0.7" green="0.835" blue="1" alpha="1.0" />
+    <font id="base" name="Helvetica Light" size="14" />
+    <font id="bolder" name="Helvetica" size="15" />
+    <font id="lighter" name="Helvetica Light" size="14" />
+    <characterStyle id="base" fontID="base" foregroundColorID="foreground" />
+    <paragraphStyle id="base" paragraphSpacingBefore="0" paragraphSpacing="0" lineSpacing="1.4" lineHeightMultiple="0.0" alignment="NSLeftTextAlignment" />
+    <textView
+        shouldAntialiasText="yes"
+        shouldShowNoteHandles="no"
+        shouldShowProjectHandles="yes"
+        defaultCharacterStyleID="base"
+        textLeftEdgeAlignmentStyle="TPEntryPlainTextAlignmentStyle"
+        insertionPointColorID="insertionPoint"
+        selectionColorID="selection"
+        handleColorID="handle"
+        tagColorID="tag"
+    />
+
+    <!-- Task style -->
+    <color id="task" extendsColorID="foreground" />
+    <font id="task" extendsFontID="base" />
+    <characterStyle id="task" fontID="task" foregroundColorID="task" />
+    <entryRule matchesQuery="type = task" lineCharacterStyleID="task" paragraphStyleID="base" />
+
+    <!-- Project style -->
+    <color id="project" red="0" green="0.256" blue="0.5" alpha="1.0" />
+    <font id="project" name="Helvetica Neue Light" size="22" />
+    <characterStyle id="project" fontID="project" foregroundColorID="project" />
+    <paragraphStyle id="project" extendsParagraphStyleID="base" paragraphSpacingBefore="20" paragraphSpacing="0" />
+    <entryRule matchesQuery="type = &quot;project&quot;" lineCharacterStyleID="project" paragraphStyleID="project" />
+
+    <!-- Note style -->
+    <color id="note" red="0.45" green="0.45" blue="0.45" alpha="1.0" />
+    <font id="note" extendsFontID="lighter" />
+    <characterStyle id="note" fontID="note" foregroundColorID="note" />
+ <paragraphStyle id="note" extendsParagraphStyleID="base" paragraphSpacingBefore="0" paragraphSpacingAfter="10" paragraphSpacing="0" />
+    <entryRule matchesQuery="type = note" lineCharacterStyleID="note" paragraphStyleID="note" />
+
+    <!-- GroupHeader style (top level projects) -->
+    <color id="clear" red="1.0" green="1.0" blue="1.0" alpha="0.0" />
+    <gradient id="groupHeader" startColorID="foreground" endColorID="clear" angle="0" />
+    <color id="groupHeader" red="0.67" green="0.137" blue="0.136" alpha="1.0" />
+    <font id="groupHeader" name="Helvetica Neue Light" size="26" />
+    <characterStyle id="groupHeader" fontID="groupHeader" foregroundColorID="groupHeader" />
+    <paragraphStyle id="groupHeader" extendsParagraphStyleID="base" paragraphSpacingBefore="20" paragraphSpacing="0" />
+    <backgroundStyle
+        id="groupHeader"
+        maxWidth="0"
+        xWeight="0"
+        maxHeight="1"
+        yWeight="-0.5"
+        cornerRadiusX="0"
+        cornerRadiusY="0"
+        fillGradientID="groupHeader"
+    />
+    <entryRule matchesQuery="isgroupheader" paragraphStyleID="groupHeader" lineCharacterStyleID="groupHeader" frontParagraphBackgroundStyleID="groupHeader" />
+
+    <!-- @done style -->
+    <color id="done" red="0.25" green="0.25" blue="0.25" alpha="1.0" />
+    <characterStyle id="done" strikethroughStyle="NSUnderlineStyleSingle" foregroundColorID="done" />
+    <entryRule matchesQuery="@done" contentCharacterStyleID="done" />  
+
+    <!-- @today and @focus style -->
+    <color id="star" red="0" green="0.5" blue="0.25" alpha="1.0" />
+    <characterStyle id="star" fontID="bolder" foregroundColorID="star" />
+    <entryRule matchesQuery="@today" contentCharacterStyleID="star" /> 
+    <entryRule matchesQuery="@focus" contentCharacterStyleID="star" />
+
+    <!-- @soon, @tomorrow and @in_progress style -->
+    <color id="soon" red="0.2" green="0.5" blue="0.1" alpha="1.0" />
+    <characterStyle id="soon" foregroundColorID="soon" />
+    <entryRule matchesQuery="@soon" contentCharacterStyleID="soon" />
+    <entryRule matchesQuery="@in_progress" contentCharacterStyleID="soon" />
+    <entryRule matchesQuery="@tomorrow" contentCharacterStyleID="soon" />
+
+    <!-- @urgent, @overdue, and @most_important style -->
+    <color id="urgent" red="0.67" green="0.137" blue="0.136" alpha="1.0" />
+    <characterStyle id="urgent" fontID="bolder" foregroundColorID="urgent" />
+    <entryRule matchesQuery="@overdue" contentCharacterStyleID="urgent" />
+    <entryRule matchesQuery="@urgent" contentCharacterStyleID="urgent" />
+    <entryRule matchesQuery="@most_important" contentCharacterStyleID="urgent" />
+</theme>
