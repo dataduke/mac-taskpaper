@@ -1,0 +1,46 @@
+Title: Title - Subtitle
+Keywords: #tasks #tag #tag #tag #tag
+Description: Lorem ipsum mauris auctor ultrices imperdiet. Donec adipiscing, lorem et congue vehicula.
+Goals:
+	- goal
+	- goal
+Reasons:
+	- reason
+	- reason
+Use Cases:
+	- use case
+	- use case
+Explanations:
+	Project Duration: 4 month, 1 iteration = 2 weeks
+	Task Workload: 1 pomodoro = 25 min
+	Task Priority: 1 = urgent, 2 = high
+	Abbreviations: pom = pomdoro, prio = priority
+Initiation:
+	- kick off task @pom(1) @done
+	- kick off task @pom(2) @done
+Iteration 1:
+	Sunday, 2013-01-01 to Saturday, 2013-01-08 @sticky
+	- task @pom(2) @done
+Iteration 2:
+	Sunday, 2013-01-09 to Saturday, 2013-01-17 @sticky
+	- task @pom(2) @prio(1)  @done
+	- task @pom(1) @prio(2) @done
+Iteration 3:
+	current cycle for next 2 weeks @sticky
+	- task @pom(3) @prio(1) @today
+	- task @pom(1) @prio(1) 
+	- task @pom(2)
+Iteration 4:
+Iteration 5:
+Iteration 6:
+Iteration 7:
+Iteration 8:
+Backlog:
+	- inital task
+	- inital task @star
+	- inital task @bold
+	- inital task @blue
+	- inital task @green
+	- inital task @red
+	- inital task @yellow
+
