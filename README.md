@@ -6,6 +6,10 @@ Taskpaper Themes and Settings.
 
 In the last years I created some themes for taskpaper. The theme `Things Colors.taskpapertheme` is the last and most feature rich one I created a year ago. I use it (nearly) on a daily basis, having not changed anything nor switched away ever since.
 
+### Installation
+
+move themes `~/Library/Application Support/TaskPaper/Themes`
+
 ## Background Thoughts
 
 ### My productivity journey
