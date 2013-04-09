@@ -74,6 +74,6 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 *Applications with recognizable approaches but no real success on the market.*
 
 - [The Hitlist](http://www.potionfactory.com/thehitlist/): Known for its flexible task presentation, time tracking and its once superior mac app design in comparison to things and omnifocus. Shortcomings: Sadly the indy developer couldn't deliver an iphone app at the right time to market - when a lot of early adopter (multiplicators) were asking, because of the mixed experiences with omnifocus and things.
-- [Helium Task Management](http://www.heliumnow.com/): Known for its very good app design and email integration (similar to the new mail.app for iphone). Shortcomings: Maybe lack of investors. 
+- [Helium Task Management](http://www.heliumnow.com/), [videos](http://www.youtube.com/user/robotblimp): Known for its very good app design and email integration (similar to the new mail.app for iphone). Shortcomings: Maybe lack of investors. 
 - [Easy Task Manager](http://www.orionbelt.com/): Known as the first system to offer support for all major plattforms. Shortcomings: Very basic and old school application design and limited features.
 - [Organize](http://taskfabric.com/): Focuses on task visualization and rich interfaces but lacks really fitting application design.
