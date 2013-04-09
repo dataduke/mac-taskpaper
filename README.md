@@ -4,11 +4,24 @@ Taskpaper Themes and Settings.
 
 ## Themes
 
-In the last years I created some themes for taskpaper. The theme `Things Colors.taskpapertheme` is the last and most feature rich one I created a year ago. I use it (nearly) on a daily basis, having not changed anything nor switched away ever since.
-
 ### Installation
 
 Move themes to `~/Library/Application Support/TaskPaper/Themes`
+
+## Things Colors
+
+In the last years I created some themes for taskpaper. The theme `Things Colors.taskpapertheme` is the last and most feature rich one I created a year ago. I use it (nearly) on a daily basis, having not changed anything nor switched away ever since. 
+
+### Variants
+
+- `Things Colors.taskpapertheme` is my default
+- `Things Colors Divider.taskpapertheme` adds automatic divider lines between Projects. 
+- `Things Fireball.taskpapertheme` uses the colours of John Gruber's Website [daringfireball.net](http://daringfireball.net)
+- `Things Improved.taskpapertheme` adds better spacing to the shipped theme `Things.taskpapertheme` 
+
+### Demo
+
+![Demo Things Colors](https://github.com/dataduke/mac-taskpaper/raw/master/Demo/ThemeDemo-ThingsColors.jpg)
 
 ## Background Thoughts
 
