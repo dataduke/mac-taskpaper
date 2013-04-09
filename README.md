@@ -80,7 +80,7 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 - [orgMode](http://orgmode.org/), [emacs](http://www.gnu.org/software/emacs/)
 - [VimOrganizer](http://www.vim.org/scripts/script.php?script_id=3342), [github-repo](https://github.com/hsitz/VimOrganizer), [vim](http://www.vim.org/)
 - [todo.txt](http://todotxt.com/), [github-repos](https://github.com/ginatrapani) by Gina Trapani, [taskwarrior](http://taskwarrior.org)
-- [Notational Velocity](http://notational.net/), [github-repo](https://github.com/scrod/nv/tree/) by Zachary Schneirov, [nv fork github-repo](https://github.com/DivineDominion/nv) by Christian Tietze, [nvAlt](http://brettterpstra.com/projects/nvalt/), [github-repo](https://github.com/ttscoff/nv) by Brett Terpstra (ttscoff) and David Halter (ElasticThreads), [Nottingham](http://clickontyler.com/nottingham/), [Justnotes](http://selfcoded.com/justnotes/#.UWRhPqVRqk4), [simplenote](http://simplenote.com), [ResophNotes](http://www.resoph.com), [nvPY github-repo](https://github.com/cpbotha/nvpy)
+- [Notational Velocity](http://notational.net/), [github-repo](https://github.com/scrod/nv/tree/) by Zachary Schneirov, [nv fork github-repo](https://github.com/DivineDominion/nv) by Christian Tietze, [nvAlt](http://brettterpstra.com/projects/nvalt/), [github-repo](https://github.com/ttscoff/nv) by Brett Terpstra (ttscoff) and David Halter (ElasticThreads), [Nottingham](http://clickontyler.com/nottingham/), [Justnotes](http://selfcoded.com/justnotes), [simplenote](http://simplenote.com), [ResophNotes](http://www.resoph.com), [nvPY github-repo](https://github.com/cpbotha/nvpy)
 
 ### Best (Mac) Applications
 
