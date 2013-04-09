@@ -6,7 +6,11 @@ Taskpaper Themes and Settings.
 
 In the last years I created some themes for taskpaper. The theme `Things Colors.taskpapertheme` is the last and most feature rich one I created a year ago. I use it (nearly) on a daily basis, having not changed anything nor switched away ever since.
 
-## Some Background Thoughts
+## Background Thoughts
+
+### My productivity journey
+
+*What I used to use.*
 
 A long time ago, my task lists were held on simple `.txt` files or on `.xls` sheets for certain topics,
 which also held some charts for progress and accomplishment analysis. I developed and followed my own and quite complex system, which included over 5 basic categories, narrowed down to up to 20 subcategories. It worked quite well and also included the Eisenhower principle, but then I met tux and later on mac os x and got tracked into editors and applications.
