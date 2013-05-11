@@ -76,7 +76,7 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 
 *I recommend any of the following tools.*
 
-- **TextEdit** by Apple with settings (Format: Plain text, Font: Menlo 13, Save: don't add ".txt")
+- **TextEdit** by Apple with the following preferences (Format: Plain text, Font: Menlo 13, Save: don't add ".txt")
 - [TaskPaper](http://www.hogbaysoftware.com/products/taskpaper), [FoldingText](http://www.foldingtext.com/) by Jesse Grosjean, [TodoPaper](http://widefido.com/products/todopaper/) by Jordan Sherer.
 - [orgMode](http://orgmode.org/), [emacs](http://www.gnu.org/software/emacs/)
 - [VimOrganizer](http://www.vim.org/scripts/script.php?script_id=3342), [github-repo](https://github.com/hsitz/VimOrganizer), [vim](http://www.vim.org/)
