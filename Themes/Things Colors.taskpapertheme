@@ -119,35 +119,35 @@
 	<color id="yellowEnd" red="0.95" green="0.95" blue="0.75" alpha="1.0" />
 	<gradient id="yellowGradient" startColorID="yellowStart" endColorID="yellowEnd" angle="90" />
 	<backgroundStyle id="yellowBox" extendsBackgroundStyleID="box" fillGradientID="yellowGradient" />
-	<entryRule matchesQuery="type = task and @today or @focus or @star and not @done" backParagraphBackgroundStyleID="yellowBox" />
+	<entryRule matchesQuery="type = task and (@today or @focus or @star) and not @done" backParagraphBackgroundStyleID="yellowBox" />
 	
 	<!-- RED BOX @overdue @important style. This section defines the styles that are applied to lines tagged with @overdue or @important and not @done. -->
 	<color id="redStart" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 	<color id="redEnd" red="0.90" green="0.79" blue="0.82" alpha="1.0" />
 	<gradient id="redGradient" startColorID="redStart" endColorID="redEnd" angle="90" />
 	<backgroundStyle id="redBox" extendsBackgroundStyleID="box" fillGradientID="redGradient" />
-	<entryRule matchesQuery="type = task and @overdue or @important and not @done" backParagraphBackgroundStyleID="redBox" />
+	<entryRule matchesQuery="type = task and (@overdue or @important) and not @done" backParagraphBackgroundStyleID="redBox" />
 	
 	<!-- GREEN BOX @next @na @soon @upcoming @progress style. This section defines the styles that are applied to lines tagged with @next or @na or @soon or @upcoming or @progress and not @done and not @today. -->
 	<color id="greenStart" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 	<color id="greenEnd" red="0.80" green="0.90" blue="0.80" alpha="1.0" />
 	<gradient id="greenGradient" startColorID="greenStart" endColorID="greenEnd" angle="90" />
 	<backgroundStyle id="greenBox" extendsBackgroundStyleID="box" fillGradientID="greenGradient" />
-	<entryRule matchesQuery="type = task and @next or @na or @soon or @upcoming or @progress and not @done and not @today" backParagraphBackgroundStyleID="greenBox" />
+	<entryRule matchesQuery="type = task and (@next or @na or @soon or @upcoming or @progress) and not @done and not @today" backParagraphBackgroundStyleID="greenBox" />
 	
 	<!-- BLUE BOX @priority(1) @prio(1) style. This section defines the styles that are applied to lines tagged with @priority(1) or @prio(1) and not done and not @today. -->
 	<color id="blueStart" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
 	<color id="blueEnd" red="0.79" green="0.85" blue="0.93" alpha="1.0" />
 	<gradient id="blueGradient" startColorID="blueStart" endColorID="blueEnd" angle="90" />
 	<backgroundStyle id="blueBox" extendsBackgroundStyleID="box" fillGradientID="blueGradient" />
-	<entryRule matchesQuery="type = task and @priority=1 or @prio=1 and not @done and not @today" backParagraphBackgroundStyleID="blueBox" />
+	<entryRule matchesQuery="type = task and (@priority=1 or @prio=1) and not @done and not @today" backParagraphBackgroundStyleID="blueBox" />
 	
 	<!-- font styles -->
 	
 	<!-- BOLD FONT @bold @flag @move @mv style. This section defines the styles that are applied to lines tagged with @bold or @flag or @move or @mv and not @done. -->
 	<font id="boldFont" extendsFontID="base" fontTraitMask="NSBoldFontMask"/>
 	<characterStyle id="bold" fontID="boldFont" />
-	<entryRule matchesQuery="@bold or @flag or @move or @mv and not @done" lineCharacterStyleID="bold" />
+	<entryRule matchesQuery="(@bold or @flag or @move or @mv) and not @done" lineCharacterStyleID="bold" />
 	
 	<!-- YELLOW FONT @yellow style. This section defines the styles that are applied to lines tagged with @yellow and not @done. -->
 	<color id="yellowColor" red="0.50" green="0.50" blue="0.0" alpha="1.0" />
