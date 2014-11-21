@@ -1,5 +1,5 @@
+<a href="https://gitter.im/dataduke/mac-taskpaper?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge" target="_blank"><img src="https://badges.gitter.im/Join Chat.svg" alt="Gitter badge"></a>
 
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/dataduke/mac-taskpaper?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <a href="http://github.com/caleorourke/grunt-jekyll-pages/blob/master/LICENSE.md" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
 
 # TaskPaper
