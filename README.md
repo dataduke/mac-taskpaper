@@ -1,7 +1,10 @@
-# taskpaper
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/dataduke/mac-taskpaper?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Taskpaper Themes and Settings. 
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/dataduke/mac-taskpaper?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<a href="http://github.com/caleorourke/grunt-jekyll-pages/blob/master/LICENSE.md" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a>
+
+# TaskPaper
+
+This is my personal repository for TaskPaper themes and settings. Feel free to commit or join via gitter!
 
 ## Themes
 
@@ -11,7 +14,7 @@ Move themes to `~/Library/Application Support/TaskPaper/Themes`
 
 ## Things Colors
 
-In the last years I created some themes for taskpaper. The theme `Things Colors.taskpapertheme` is the last and most feature rich one I designed a year ago on the basis of [Things.app](http://culturedcode.com/things/) by Cultured Code and the shipped theme `Things.taskpapertheme` by Jesse Grosjean. I use this theme (nearly) on a daily basis, having not changed anything nor switched away ever since. 
+In the last years I created some themes for TaskPaper. The theme `Things Colors.taskpapertheme` is the last and most feature rich one I designed a year ago on the basis of [Things.app](http://culturedcode.com/things/) by Cultured Code and the shipped theme `Things.taskpapertheme` by Jesse Grosjean. I use this theme (nearly) on a daily basis, having not changed anything nor switched away ever since. 
 
 ### Variants
 
@@ -26,7 +29,7 @@ In the last years I created some themes for taskpaper. The theme `Things Colors.
 
 ## Background Thoughts
 
-### My productivity journey
+### My Productivity Journey
 
 *What I used to use.*
 
@@ -35,17 +38,17 @@ which also held some charts for progress and accomplishment analysis. I develope
 
 As a student obsessed with IT my GTD application journey started with a workshop at an IT conference in the summer of 2005. Although, software is not needed for managing tasks I got quite addicted to the search for the best tool and tested for a while nearly every task app since I had the first released smartphone with a touchscreen (symbian) and later on a pocket pc (windows mobile, windows ce). I dived even deeper when I got the first iphone (ios) and the app store was launched. A bunch of apps were getting a lot of attention and I still have the full versions for all of them. 
 
-For a year I used things on mac, iphone (and switched even back to it when the ipad version was released). Later on I used the hitlist, which was fantastic but laked mobile support. In the meantime I also worked with tomboy, tiddlywikki, voodoopad, remember the milk, nozbe, taskpaper, trello, helium task management, basecamp, todo.txt, pocket informant, crosscheck, appagio todo, toodledo, wunderlist, Gqueues, notational, nvAlt, Simplenote,  and a bunch of other tools, which are not noteworthy. I even discovered easy task manager through a resourceful website that listed every task management method/system and a lot of available apps for all popular platforms with ratings. Hell at latest, I even used the almighty and pricey omnifocus for all my tasks for a year.
+For a year I used things on Mac, iPhone (and switched even back to it when the iPad version was released). Later on I used the Hitlist, which was fantastic but laked mobile support. In the meantime I also worked with TomBoy, TiddlyWikki, voodoopad, Remember The Milk, Nozbe, TaskPaper, Trello, helium task management, Basecamp, todo.txt, pocket informant, crosscheck, Appagio ToDo, Toodledo, Wunderlist, Gqueues, Notational, nvALT, Simplenote,  and a bunch of other tools, which are not noteworthy. I even discovered easy task manager through a resourceful website that listed every task management method/system and a lot of available apps for all popular platforms with ratings. Hell at latest, I even used the almighty and pricey omnifocus for all my tasks for a year.
 
 However no rich task application could offer the same ease of use as plaintext files and mouse-free manipulation via cli-commands or a good editor like vim or emacs. So I started using org mode and taskwarrior. 
 
-As (1) the next mobile platforms (android, webos, windows phone) emerged, (2) I was dealing with enterprise ticket systems and enterprise task management applications and (3) minimalism started its triumphal procession in the blogging world it was clear that simple text files were the solution for all operating systems I use.
+As (1) the next mobile platforms (Android, WebOS, Windows Phone) emerged, (2) I was dealing with enterprise ticket systems and enterprise task management applications and (3) minimalism started its triumphal procession in the blogging world it was clear that simple text files were the solution for all operating systems I use.
 
 This is basically how I got back to using plaintext and taskpaper for improved aesthetics, the review-process and retrospectives. (Even though I watched the live presentation of omnifocus 2 the day it was online I will not switch away from plaintext in the future.)
 
-### Advantages of plaintext tasks
+### Advantages of Plaintext Tasks
 
-*Why I recommend to keep it simple (KISS).*
+*Why I recommend to Keep It Simple and Stupid (KISS).*
 
 - independent from (task) management method (GTD, Scrum, Agile, Kanban, Eisenhower Matrix, POSEC, own approach...)
 - independent from operating system, platform
