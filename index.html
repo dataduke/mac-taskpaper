@@ -1,197 +1,43 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>mac-taskpaper by dataduke</title>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>mac-taskpaper</h1>
-        <p>TaskPaper for Mac - Themes and Settings</p>
+  <title>TaskPaper for Mac</title>
 
-        <p class="view"><a href="https://github.com/dataduke/mac-taskpaper">View the Project on GitHub <small>dataduke/mac-taskpaper</small></a></p>
+  <!-- Flatdoc -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/legacy.js'></script>
+  <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/flatdoc.js'></script>
 
+  <!-- Flatdoc theme -->
+  <link  href='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/style.css' rel='stylesheet'>
+  <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/script.js'></script>
 
-        <ul>
-          <li><a href="https://github.com/dataduke/mac-taskpaper/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/dataduke/mac-taskpaper/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/dataduke/mac-taskpaper">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <p><a href="https://gitter.im/dataduke/mac-taskpaper?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge" target="_blank"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter badge"></a>     <a href="http://github.com/dataduke/mac-taskpaper/blob/master/LICENSE.md" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-license badge"></a></p>
+  <!-- Meta -->
+  <meta content="TaskPaper for Mac" property="og:title">
+  <meta content="TaskPaper for Mac - Themes and Settings." name="description">
 
-<h1>
-<a id="taskpaper-for-mac" class="anchor" href="#taskpaper-for-mac" aria-hidden="true"><span class="octicon octicon-link"></span></a>TaskPaper for Mac</h1>
+  <!-- Initializer -->
+  <script>
+    Flatdoc.run({
+      fetcher: Flatdoc.github('dataduke/mac-taskpaper')
+    });
+  </script>
+<body role='flatdoc' class='big-h3 no-literate'>
 
-<p>This is my personal repository for TaskPaper themes and settings. Feel free to commit!</p>
-
-<h2>
-<a id="themes" class="anchor" href="#themes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Themes</h2>
-
-<h3>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
-
-<p>Move themes to <code>~/Library/Application Support/TaskPaper/Themes</code></p>
-
-<h2>
-<a id="things-colors" class="anchor" href="#things-colors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Things Colors</h2>
-
-<p>In the last years I created some themes for TaskPaper. The theme <code>Things Colors.taskpapertheme</code> is the last and most feature rich one I designed a year ago on the basis of <a href="http://culturedcode.com/things/">Things.app</a> by Cultured Code and the shipped theme <code>Things.taskpapertheme</code> by Jesse Grosjean. I use this theme (nearly) on a daily basis, having not changed anything nor switched away ever since. </p>
-
-<h3>
-<a id="variants" class="anchor" href="#variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variants</h3>
-
-<ul>
-<li>
-<code>Things Colors.taskpapertheme</code> is my default</li>
-<li>
-<code>Things Colors Divider.taskpapertheme</code> adds automatic divider lines between Projects. </li>
-<li>
-<code>Things Fireball.taskpapertheme</code> uses the colours of John Gruber's Website <a href="http://daringfireball.net">daringfireball.net</a>
-</li>
-<li>
-<code>Things Improved.taskpapertheme</code> adds better spacing to the shipped theme <code>Things.taskpapertheme</code> </li>
-</ul>
-
-<h3>
-<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h3>
-
-<p><img src="https://github.com/dataduke/mac-taskpaper/raw/master/Demo/ThemeDemo-ThingsColors.jpg" alt="Demo Things Colors" width="584"></p>
-
-<h2>
-<a id="background-thoughts" class="anchor" href="#background-thoughts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Background Thoughts</h2>
-
-<h3>
-<a id="my-productivity-journey" class="anchor" href="#my-productivity-journey" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Productivity Journey</h3>
-
-<p><em>What I used to use.</em></p>
-
-<p>A long time ago, my task lists were held on simple <code>.txt</code> files or on <code>.xls</code> sheets for certain topics,
-which also held some charts for progress and accomplishment analysis. I developed and followed my own and quite complex system, which included over 5 basic categories, narrowed down to up to 20 subcategories. It worked quite well and also included the Eisenhower principle, but then I met tux and later on mac os x and got tracked into editors and applications.</p>
-
-<p>As a student obsessed with IT my GTD application journey started with a workshop at an IT conference in the summer of 2005. Although, software is not needed for managing tasks I got quite addicted to the search for the best tool and tested for a while nearly every task app since I had the first released smartphone with a touchscreen (symbian) and later on a pocket pc (windows mobile, windows ce). I dived even deeper when I got the first iphone (ios) and the app store was launched. A bunch of apps were getting a lot of attention and I still have the full versions for all of them. </p>
-
-<p>For a year I used things on Mac, iPhone (and switched even back to it when the iPad version was released). Later on I used the Hitlist, which was fantastic but laked mobile support. In the meantime I also worked with TomBoy, TiddlyWikki, voodoopad, Remember The Milk, Nozbe, TaskPaper, Trello, helium task management, Basecamp, todo.txt, pocket informant, crosscheck, Appagio ToDo, Toodledo, Wunderlist, Gqueues, Notational, nvALT, Simplenote,  and a bunch of other tools, which are not noteworthy. I even discovered easy task manager through a resourceful website that listed every task management method/system and a lot of available apps for all popular platforms with ratings. Hell at latest, I even used the almighty and pricey omnifocus for all my tasks for a year.</p>
-
-<p>However no rich task application could offer the same ease of use as plaintext files and mouse-free manipulation via cli-commands or a good editor like vim or emacs. So I started using org mode and taskwarrior. </p>
-
-<p>As (1) the next mobile platforms (Android, WebOS, Windows Phone) emerged, (2) I was dealing with enterprise ticket systems and enterprise task management applications and (3) minimalism started its triumphal procession in the blogging world it was clear that simple text files were the solution for all operating systems I use.</p>
-
-<p>This is basically how I got back to using plaintext and taskpaper for improved aesthetics, the review-process and retrospectives. (Even though I watched the live presentation of omnifocus 2 the day it was online I will not switch away from plaintext in the future.)</p>
-
-<h3>
-<a id="advantages-of-plaintext-tasks" class="anchor" href="#advantages-of-plaintext-tasks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Advantages of Plaintext Tasks</h3>
-
-<p><em>Why I recommend to Keep It Simple and Stupid (KISS).</em></p>
-
-<ul>
-<li>independent from (task) management method (GTD, Scrum, Agile, Kanban, Eisenhower Matrix, POSEC, own approach...)</li>
-<li>independent from operating system, platform</li>
-<li>independent from application life cycle and updates (feature maintenance)</li>
-<li>easy to manipulate with a lot of tools (editors, command line tools, scripts, cron-jobs, application launchers)</li>
-<li>easy to maintain with version control (git, svn, cvs, mercurial...) and syncing apps (dropbox...)</li>
-<li>easy to integrate (wallpaper, stickies, printed paper, widgets, websites, wikis)</li>
-<li>small and thus can be stored, viewed and accessed for your whole lifespan!</li>
-<li>(secret) task lists can be secured easily via encryption</li>
-</ul>
-
-<h2>
-<a id="references" class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
-
-<h3>
-<a id="productivity-resources" class="anchor" href="#productivity-resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Productivity Resources</h3>
-
-<p><em>Here are some pointers to get you started.</em></p>
-
-<ul>
-<li><a href="http://zenhabits.net/the-top-50-productivity-blogs-most-of-which-you-havent-heard-about/">List of Productivity Blogs</a></li>
-<li>
-<a href="http://www.43folders.com/">43 Folders</a> by Merlin Mann</li>
-<li>
-<a href="http://www.gtdtimes.com/">GTD Times</a> by David Allen</li>
-<li>
-<a href="http://www.michaelsliwinski.com/">Productive! Blog, Show, Magazine</a> by Michael Sliwinski</li>
-<li><a href="http://simplicitybliss.com/">Simplicity Bliss</a></li>
-<li><a href="http://www.asianefficiency.com/blog/">Asian Efficiency</a></li>
-<li><a href="http://www.practicallyefficient.com/">Practically Efficient</a></li>
-<li><a href="http://minimalmac.com/">Minimal Mac</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Time_management">Time Management</a></li>
-<li>
-<a href="http://patrickrhone.com/books/">Keep It Straight (book), enough (Book)</a> by Patrick Rhone</li>
-</ul>
-
-<h3>
-<a id="plaintext-tools" class="anchor" href="#plaintext-tools" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plaintext Tools</h3>
-
-<p><em>I recommend any of the following tools.</em></p>
-
-<ul>
-<li>
-<strong>TextEdit</strong> by Apple with the following preferences (Format: Plain text, Font: Menlo 13, Save: don't add ".txt", Open: UTF-8, Save: UTF-8, Options: all off except check spelling)</li>
-<li>
-<a href="http://www.hogbaysoftware.com/products/taskpaper">TaskPaper</a>, <a href="http://www.foldingtext.com/">FoldingText</a> by Jesse Grosjean, <a href="http://widefido.com/products/todopaper/">TodoPaper</a> by Jordan Sherer.</li>
-<li>
-<a href="http://orgmode.org/">orgMode</a>, <a href="http://www.gnu.org/software/emacs/">emacs</a>
-</li>
-<li>
-<a href="http://www.vim.org/scripts/script.php?script_id=3342">VimOrganizer</a>, <a href="https://github.com/hsitz/VimOrganizer">github-repo</a>, <a href="http://www.vim.org/">vim</a>
-</li>
-<li>
-<a href="http://todotxt.com/">todo.txt</a>, <a href="https://github.com/ginatrapani">github-repos</a> by Gina Trapani, <a href="http://taskwarrior.org">taskwarrior</a>, <a href="http://macrecon.com/app/TaskAgent/">taskAgent-iOS</a>, <a href="http://macrecon.com/app/TaskAgent-Mac/">taskAgent-Mac</a>
-</li>
-<li>
-<a href="http://notational.net/">Notational Velocity</a>, <a href="https://github.com/scrod/nv/tree/">github-repo</a> by Zachary Schneirov, <a href="https://github.com/DivineDominion/nv">nv fork github-repo</a> by Christian Tietze, <a href="http://brettterpstra.com/projects/nvalt/">nvAlt</a>, <a href="https://github.com/ttscoff/nv">github-repo</a> by Brett Terpstra (ttscoff) and David Halter (ElasticThreads), <a href="http://clickontyler.com/nottingham/">Nottingham</a>, <a href="http://selfcoded.com/justnotes">Justnotes</a>, <a href="http://simplenote.com">simplenote</a>, <a href="http://www.resoph.com">ResophNotes</a>, <a href="https://github.com/cpbotha/nvpy">nvPY github-repo</a>
-</li>
-</ul>
-
-<h3>
-<a id="best-mac-applications" class="anchor" href="#best-mac-applications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Best (Mac) Applications</h3>
-
-<p><em>If you still want to get trapped check out these apps.</em></p>
-
-<ul>
-<li>
-<a href="http://www.nozbe.com/">Nozbe</a>, <a href="http://www.michaelsliwinski.com/">Michael Sliwinski</a>, <a href="http://www.michaelsliwinski.com/productive_magazine/">Productive! Magazine</a>, <a href="http://www.michaelsliwinski.com/productive_show/">Productive! Show</a>: Nozbe started out as a task management web application for individuals and teams with deep integration to a lot of services (most popular today: evernote, google calender, dropbox) promoted by a very talented and productive founder, blogger, podcast and magazine creator. The platform has constantly grown and added an iphone app, added a mac app, added a windows app, added android support. Today it offers the most complete solution with the highest developmental progress over time.</li>
-<li>
-<a href="http://www.omnigroup.com/products/omnifocus/">Omnifocus</a>, <a href="http://www.usingomnifocus.com/blog/">Using Omnifocus Articles</a>, <a href="http://simplicitybliss.com/omnifocus/">SimplicityBliss Articles</a>, <a href="http://www.asianefficiency.com/omnifocus/">AsianEfficiency Articles, Theme</a>: OmniGroup is well-known for its very thoughtful and highly functional application designs. The only shortcoming with the Omnifocus plattform is the complex layout of filters in the mac app, but this is fixed with the arrival of version 2.</li>
-<li>
-<a href="http://culturedcode.com/things/">Things</a>: As the company focused ( <em>over-engineered</em> ) on its website design, blog posts and mainly the long announced and awaited cloud push sync feature, the customer service in their forums went very low (diplomatically spoken). The customers faced a very rough 3 year long development phase but Cultured Code finally delivered a perfect cloud sync system/framework, which Apple itself would probably have implemented similarly (with a lot more resource power).</li>
-</ul>
-
-<h3>
-<a id="honorable-mentions" class="anchor" href="#honorable-mentions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Honorable Mentions</h3>
-
-<p><em>Applications with recognizable approaches but no real success on the market.</em></p>
-
-<ul>
-<li>
-<a href="http://www.potionfactory.com/thehitlist/">The Hitlist</a>: Known for its flexible task presentation, time tracking and its once superior mac app design in comparison to things and omnifocus. Shortcomings: Sadly the indy developer couldn't deliver an iphone app at the right time to market - when a lot of early adopter (multiplicators) were asking, because of the mixed experiences with omnifocus and things.</li>
-<li>
-<a href="http://www.heliumnow.com/">Helium Task Management</a>, <a href="http://www.youtube.com/user/robotblimp">videos</a>: Known for its very good app design and email integration (similar to the new mail.app for iphone). Shortcomings: Maybe lack of investors. </li>
-<li>
-<a href="http://www.orionbelt.com/">Easy Task Manager</a>: Known as the first system to offer support for all major plattforms. Shortcomings: Very basic and old school application design and limited features.</li>
-<li>
-<a href="http://taskfabric.com/">Organize</a>: Focuses on task visualization and rich interfaces but lacks really fitting application design.</li>
-<li>
-<a href="http://www.circusponies.com">NoteBook</a>: Uses the traditional memo pad approach.</li>
-</ul>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/dataduke">dataduke</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+  <div role='flatdoc' class='content-root'>
+    <div class='menubar'>
+      <div class='section'>
+        <a class='big button' href='https://github.com/dataduke/mac-taskpaper'>View in GitHub</a>
+      </div>
+      <div class='menu section' role='flatdoc-menu'></div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+    <div role='flatdoc-content' class='content'></div>
+  </div>
+
+</body>
 </html>
+
