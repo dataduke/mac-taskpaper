@@ -23,7 +23,7 @@ In the last years I created some themes for TaskPaper. The theme `Things Colors.
 
 ### Demo
 
-<img src="https://github.com/dataduke/mac-taskpaper/raw/master/Demo/ThemeDemo-ThingsColors.jpg" alt="Demo Things Colors" width="700">
+<img src="https://github.com/dataduke/mac-taskpaper/raw/master/Demo/ThemeDemo-ThingsColors.jpg" alt="Demo Things Colors" width="584">
 
 ## Background Thoughts
 
