@@ -102,3 +102,4 @@ This is basically how I got back to using plaintext and taskpaper for improved a
 - [Easy Task Manager](http://www.orionbelt.com/): Known as the first system to offer support for all major plattforms. Shortcomings: Very basic and old school application design and limited features.
 - [Organize](http://taskfabric.com/): Focuses on task visualization and rich interfaces but lacks really fitting application design.
 - [NoteBook](http://www.circusponies.com): Uses the traditional memo pad approach.
+- [Anxiety](http://www.anxietyapp.com/): Outdated lightweight, streamlined mac app with calendar and mail tasks integration.
